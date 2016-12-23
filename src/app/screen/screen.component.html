@@ -1,1 +1,10 @@
-<canvas #screen></canvas>
+<h1 *ngIf='error'>Transmisja obrazu niedostępna. Spróbuj później. ;)</h1>
+
+<div [hidden]='error'>
+  <canvas #screen></canvas>
+
+  <app-christmas-tree-button offset='1' id='tree-1'></app-christmas-tree-button>
+  <app-christmas-tree-button offset='0' id='tree-2'></app-christmas-tree-button>
+  <app-christmas-tree-button offset='3' id='tree-3'></app-christmas-tree-button>
+  <app-christmas-tree-button offset='2' id='bowl'></app-christmas-tree-button>
+</div>

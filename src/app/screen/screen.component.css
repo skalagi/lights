@@ -1,0 +1,32 @@
+:host {
+  display: block;
+  position: relative;
+}
+
+#tree-1 {
+  bottom: 1.5em;
+  height: 15em;
+  width: 6em;
+  left: 6em;
+}
+
+#tree-2 {
+  bottom: 6.5em;
+  height: 13em;
+  width: 8em;
+  left: 13.5em;
+}
+
+#bowl {
+  bottom: 1em;
+  height: 5em;
+  width: 8em;
+  left: 13.5em;
+}
+
+#tree-3 {
+  bottom: 1.5em;
+  height: 17em;
+  width: 6em;
+  left: 23.5em;
+}
